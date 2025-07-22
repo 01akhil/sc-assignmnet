@@ -3,7 +3,7 @@
 import { useContext } from 'react';
 import { AuthContext } from '@/contexts/AuthContext';
 import { AppContext } from '@/contexts/AppContext';
-import { LogOut, User, Globe, Moon, Sun } from 'lucide-react';
+import { LogOut, User,  Moon, Sun } from 'lucide-react';
 
 export const Header = () => {
   const { auth, logout } = useContext(AuthContext);
